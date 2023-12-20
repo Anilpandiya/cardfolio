@@ -18,10 +18,61 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
 }
+
+/* Custom CSS for shadow animation */
+@keyframes shadow-pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(186, 110, 252, 0.7), 0 0 0 10px rgba(119, 52, 252, 0.4);
+    transform: scale(1);
+  }
+  100% {
+    box-shadow: 0 0 0 20px rgba(255, 0, 150, 0), 0 0 0 40px rgba(255, 0, 150, 0);
+    transform: scale(1.05);
+  }
+}
+
+/* Rotating animations */
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Tailwind classes */
+.shadow-card-animation {
+  animation: shadow-pulse 1.5s ease-in-out infinite alternate;
+}
+
+/* Floating animations */
+@keyframes floating {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    box-shadow: 0 0 0 0 rgba(186, 110, 252, 0.7), 0 0 0 10px rgba(119, 52, 252, 0.4);
+    transform: translateY(-10px);
+  }
+}
+
+/* .shadow-card-animation {
+  animation: floating 1s ease-in-out infinite;
+} */
+
+/* Blinking animations */
+@keyframes shadow-blink {
+  0%, 100% {
+    box-shadow: 0 0 0 20px rgba(255, 0, 150, 0);
+  }
+  50% {
+    box-shadow: 0 0 0 0 rgba(186, 110, 252, 0.7), 0 0 0 10px rgba(119, 52, 252, 0.4);
+  }
+}
+
+/* .shadow-card-animation {
+  animation: shadow-blink 1s ease-in-out infinite;
+} */
+
