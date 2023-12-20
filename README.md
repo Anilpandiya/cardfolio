@@ -25,7 +25,7 @@ This component is built using React and Next.js with TypeScript, ensuring type s
 
 ## Deployment
 
-This project is deployed using Vercel. You can access the Contact Card component at [xyz.com](https://xyz.com).
+This project is deployed using Vercel. You can access the Contact Card component at [here](cardfolio-anilpandiya.vercel.app).
 
 ## Usage
 
@@ -37,7 +37,7 @@ This project is deployed using Vercel. You can access the Contact Card component
 
 ## How to Customize
 
-- Update the profile images in the `images/` directory.
+- Update the profile images in the `Public/` directory.
 - Modify the content and links in the `page.tsx` file to reflect your personal information.
 - Adjust styling or layout in the `globals.css` file to match your preferences.
 
@@ -47,7 +47,7 @@ Feel free to use this Contact Card component for your own needs! Contributions a
 
 ## Contributors
 
-- [Your Name](link-to-your-profile) - Role
+- [Anil Pandiya](https://github.com/Anilpandiya) - developer
 
 ## License
 
