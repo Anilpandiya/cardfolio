@@ -71,7 +71,7 @@ const Page = () => {
             </a>
           </div>
           <p className="text-sm text-gray-600 mt-6">
-            Let's connect 🤝 and collaborate on amazing projects together! 🚀
+            Let&lsquo;s connect 🤝 and collaborate on amazing projects together! 🚀
           </p>
         </div>
       </div>
