@@ -1,10 +1,10 @@
-# Contact Card Component
+# Contact Card 
 
-This is a Contact Card component designed for showcasing professional information and social links.
+This is a Contact Card designed for showcasing professional information and social links.
 
 ## Overview
 
-This component is built using React and Next.js with TypeScript, ensuring type safety and code consistency through ESLint. It presents a structured layout to display contact information, a profile image, and various social media links. It's intended to serve as a convenient way to share professional details with clients, companies, or anyone interested in connecting.
+This card is built using React and Next.js with TypeScript, ensuring type safety and code consistency through ESLint. It presents a structured layout to display contact information, a profile image, and various social media links. It's intended to serve as a convenient way to share professional details with clients, companies, or anyone interested in connecting.
 
 ## Features
 
@@ -13,7 +13,7 @@ This component is built using React and Next.js with TypeScript, ensuring type s
 - Links to social media profiles: GitHub, LinkedIn, Medium, etc.
 - Integration with Calendly for scheduling meetings
 
-## Technologies Used
+## Tech stacks Used
 
 - React 18
 - Next.js 14
@@ -25,7 +25,7 @@ This component is built using React and Next.js with TypeScript, ensuring type s
 
 ## Deployment
 
-This project is deployed using Vercel. You can access the Contact Card component at [here](cardfolio-anilpandiya.vercel.app).
+This project is deployed using Vercel. You can access the Contact Card component at [here](https://cardfolio-anilpandiya.vercel.app/).
 
 ## Usage
 
