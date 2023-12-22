@@ -16,11 +16,13 @@ const Page = () => {
     '/picofme5.png',
     '/picofme6.png',
     '/picofme7.png',
+    '/picofme8.png',
+    '/picofme9.png',
   ];
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentImage((prevImage) => (prevImage % 7) + 1);
+      setCurrentImage((prevImage) => (prevImage % 9) + 1);
     }, 2000);
 
     return () => clearInterval(interval);
