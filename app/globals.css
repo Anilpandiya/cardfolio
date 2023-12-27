@@ -76,3 +76,10 @@ body {
   animation: shadow-blink 1s ease-in-out infinite;
 } */
 
+
+/* Adjust the card dimensions based on screen width */
+@media (max-width: 768px) {
+  .contact-card {
+    padding: 40px;
+  }
+}
